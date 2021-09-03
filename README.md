@@ -1,1 +1,1 @@
-# creators
+Participants of Creators team:
