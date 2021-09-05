@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #79b4b7;
+  text-align: center;
+}
+
+.container {
+  width: 1110px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+h1 {
+  display: inline-block;
+  text-align: center;
+  padding: 20px 40px;
+  margin: 10px auto;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #00a19d;
+  border-radius: 10px;
+}
+p {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #00a19d;
+  font-family: "Neucha", cursive;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+}
+.team {
+}
+ol {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+ol li {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  font-family: "Ubuntu", sans-serif;
+  border-radius: 10px;
+  background: url("/img/user.png") 10% 10%;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+li {
+  list-style: none;
+}
