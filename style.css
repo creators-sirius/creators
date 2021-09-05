@@ -57,7 +57,7 @@ ol li {
   border: 1px solid black;
   font-family: "Ubuntu", sans-serif;
   border-radius: 10px;
-  background: url("../img/user.png") 10% 10%;
+  background: url("./img/user.png") 10% 10%;
   background-position: center;
   background-size: cover;
   justify-content: center;
